@@ -5,12 +5,15 @@
 	/*Decode Json From LINE Data Body*/
 	$deCode = json_decode($datas,true);
 
+	
+	// function เขียน logfiles
 	file_put_contents('log.txt', file_get_contents('php://input') . PHP_EOL, FILE_APPEND);
 
 	$replyToken = $deCode['events'][0]['replyToken'];
 	$userId = $deCode['events'][0]['source']['userId'];
 	$text = $deCode['events'][0]['message']['text'];
 
+	
 	$messages = [];
 	$messages['replyToken'] = $replyToken;
 	$messages['messages'][0] = getFormatTextMessage("เอ้ย ถามอะไรก็ตอบได้");
@@ -18,7 +21,8 @@
 	$encodeJson = json_encode($messages);
 
 	$LINEDatas['url'] = "https://api.line.me/v2/bot/message/reply";
-  	$LINEDatas['token'] = "<YOUR-CHANNEL-ACCESS-TOKEN>";
+  	$LINEDatas['token'] = "0AUPsNcsGyj4cXXxV/R/Oj+PRQx6m1UIuQ/Cd8+BFfsqn+WoBeUIhSvWtK1fos4n1I+AUFesQPB4mZk/beV2tv8+8zQgZ0cT7MnVUvrDC4bJVEA+Hb5E+80CdKzclPpIIaWDPxEXaP7DEOlq/i7TjAdB04t89/1O/w1cDnyilFU=";
+	// การกำหนดในส่วนตัวแปรนี้เราจะใช้เก็บ Token อ้างอิงจากโปรแกรม Line
 
   	$results = sentMessage($encodeJson,$LINEDatas);
 
