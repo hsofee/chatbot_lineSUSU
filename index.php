@@ -16,7 +16,7 @@
 	
 	$messages = [];
 	$messages['replyToken'] = $replyToken;
-	$messages['messages'][0] = getFormatTextMessage("เอ้ย ถามอะไรก็ตอบได้");
+	$messages['messages'][0] = getFormatTextMessage("หวัดดีคะ Miss นมแม่ยินดีให้บริการ");
 
 	$encodeJson = json_encode($messages);
 
