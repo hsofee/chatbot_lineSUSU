@@ -4,6 +4,8 @@
 $API_URL = 'https://api.line.me/v2/bot/message';
 //$ACCESS_TOKEN = 'ouhqskdRP/sUP8uwpjAadPDJz6rj1Y3IR0/ZznmHBgsPmYq6Q+hzdEJ4OXgyw/8NaLy6GLAZYYbLhF/7S6i8K07k3yxT0sWcMEa6ixgJ2c0XIOEKRfUEQAsHVi4PbQU4HEk9GOq/cmdR3iRkQE9e5gdB04t89/1O/w1cDnyilFU='; 
 //$channelSecret = 'ba6e01c3eb0671a32e7d9fb3dbabd67d';
+$ACCESS_TOKEN = '0AUPsNcsGyj4cXXxV/R/Oj+PRQx6m1UIuQ/Cd8+BFfsqn+WoBeUIhSvWtK1fos4n1I+AUFesQPB4mZk/beV2tv8+8zQgZ0cT7MnVUvrDC4bJVEA+Hb5E+80CdKzclPpIIaWDPxEXaP7DEOlq/i7TjAdB04t89/1O/w1cDnyilFU='; 
+$channelSecret = 'b3a4534460a5b18f1f12c92af7c32935';
 
 
 
