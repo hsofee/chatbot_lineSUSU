@@ -18,11 +18,8 @@
 	$messages = [];
 	$messages['replyToken'] = $replyToken;
 	$messages['messages'][0] = getFormatTextMessage("หวัดดีคะ Miss นมแม่ยินดีให้บริการ");
-	$messages['messages'][0] = getFormatTextMessage("`ทดสอบการทำงาน");
-	$messages['messages'][0] = getFormatTextMessage("`ปปป");
-
+	
 	// เชื่อมต่อกับ ฐานข้อมูล อย่างไร ตรงนี้ 
-
 
 
 	$encodeJson = json_encode($messages);
