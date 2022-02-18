@@ -20,6 +20,7 @@
 	$messages['messages'][0] = getFormatTextMessage("หวัดดีคะ Miss นมแม่ยินดีให้บริการ");
 	
 	// เชื่อมต่อกับ ฐานข้อมูล อย่างไร ตรงนี้ 
+	// ทดสอบ
 
 
 	$encodeJson = json_encode($messages);
