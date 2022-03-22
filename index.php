@@ -1,4 +1,6 @@
 // start 21/11/2564
+//พัฒนาโดย อาจารย์โซฟีร์ หะยียูโซ๊ะ
+// 
 <?php 
 	/*Get Data From POST Http Request*/
 	$datas = file_get_contents('php://input');
